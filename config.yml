@@ -1,0 +1,17 @@
+messages:
+  prefix: '&8[&3hVersionCheck&8]&r'
+  noPermission: '%prefix% &cYou do not have permission to do that.'
+  pluginReloaded: '%prefix% &aPlugin has been reloaded.'
+  playerNotFound: '%prefix% &cPlayer not found.'
+  checkPlayerVersion: '%prefix% &d%player%&7''s version is: &a%version% &8(&6%versionNumber%&8)'
+
+# Send version message to player on join.
+versionMessageOnJoin:
+  enabled: true
+  message: '%prefix% &7Your client version is: &a%version% &8(&6%versionNumber%&8)'
+
+# Send version message to staff when a player join.
+# Permission: hversioncheck.notify
+notify:
+  enabled: true
+  message: '%prefix% &8(&cStaff&8) &d%player% &7is connected with &a%version% &8(&6%versionNumber%&8)'

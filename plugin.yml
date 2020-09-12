@@ -1,0 +1,13 @@
+name: hVersionCheck
+version: 0.0.1
+author: HKNGLGN
+description: The lightweight plugin that sends player's client version message on join with staff alert.
+
+main: io.github.hakangulgen.hvercheck.bukkit.hVersionCheckPlugin
+
+depend: [ViaVersion]
+
+commands:
+  hversioncheck:
+    aliases: [hvcheck]
+    description: The main command.
